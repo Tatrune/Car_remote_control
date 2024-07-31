@@ -1,0 +1,20 @@
+module lm298 v1 - 5V
+PA0: iN1
+PA1: IN2
+PA2: IN3
+PA3: IN4
+
+module lm298 v3 - 5V
+PA4: iN1
+PA5: IN2
+PA6: IN3
+PA7: IN4
+
+PB6: enb1 | enb2 | enb3 | enb4
+
+Variable resistor: 10K
+PC4: ADC - 3.3V
+
+UART4 - ESP8266
+PC10: RX
+PC11: TX
